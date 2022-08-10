@@ -1,0 +1,47 @@
+body{
+    background-image: -webkit-radial-gradient(65% purple 25% green);
+    text-align: center;
+    /* padding: 15%; */
+    margin-top: 15%;
+    
+    padding: 10px 100px ;
+}
+h1{
+    margin-bottom: 0px;
+    padding-top: 15%;
+    /* position: relative;
+    left: 200px; */
+}
+
+#input{
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#heading{
+    /* margin: 30px 80px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    margin-top: -8px;
+    border-left: 0px;
+
+}
+@media (width<= 500px) {
+    body{
+        padding: 10px 10px;
+    
+    }
+    #heading{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
